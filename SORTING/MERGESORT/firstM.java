@@ -10,6 +10,8 @@ public class firstM {
     divide(arr, mid + 1, ei);
     conquer(arr, si, mid, ei);
   }
+  
+//time complexity= O(nlogn)
 
   public static void conquer(int arr[], int si, int mid, int ei) {
     int merged[] = new int[ei - si + 1];
