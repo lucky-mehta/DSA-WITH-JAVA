@@ -6,8 +6,8 @@ public class firstQ {
   public static void quickSort(int[] arr, int lb, int ub) {
     if (lb < ub) {
       int loc = partition(arr, lb, ub);
-      quickSort(arr, lb, loc - 1);
-      quickSort(arr, loc + 1, ub);
+      quickSort(arr, lb, loc - 1); // ye left part ko sort krne ke liye
+      quickSort(arr, loc + 1, ub); // ye right part ko
     }
   }
 
