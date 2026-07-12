@@ -5,7 +5,6 @@ import java.util.Scanner;
 class overloading2 {
   void printsum(int a, int b, int c) {
     System.out.println("First sum is:" + (a + b + c));
-
   }
 
   void printsum(int a, int b) {
