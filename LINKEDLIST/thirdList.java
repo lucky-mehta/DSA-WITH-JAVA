@@ -1,3 +1,4 @@
+//Basics using funtions
 package LINKEDLIST;
 
 // Node class
@@ -11,12 +12,9 @@ class Node {
   }
 }
 
-// Main class
 public class thirdList {
-
-  // Display function
-  static void display(Node temp) {
-
+  static void display(Node head) {
+    Node temp = head;
     while (temp != null) {
       System.out.print(temp.data + " ");
       temp = temp.next;
@@ -32,7 +30,6 @@ public class thirdList {
     Node e = new Node(55);
     Node f = new Node(65);
 
-    // Connecting Nodes
     a.next = b;
     b.next = c;
     c.next = d;
@@ -41,5 +38,7 @@ public class thirdList {
 
     // Calling display function
     display(a);
+    // System.out.println();
+    // display(a);
   }
 }
