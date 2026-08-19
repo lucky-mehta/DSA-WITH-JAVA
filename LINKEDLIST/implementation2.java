@@ -1,4 +1,4 @@
-//Implementation a method to isert a node at the start of a linkedlist.
+//Implementation a method to insert a node at the start of a linkedlist.
 package LINKEDLIST;
 
 public class implementation2 {

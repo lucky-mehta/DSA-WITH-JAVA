@@ -91,17 +91,17 @@ public class implementation3 {
     // ll.insertAtAny(2, 18);
     // ll.display();
     // System.out.println();
-    // ll.insertAtAny(4, 40);
-    // ll.display();
-    // System.out.println();
-    // System.out.println(ll.tail.data);
-    // System.out.println(ll.head.data);
-    // System.out.println();
-    // ll.insertAtAny(0, 100);
-    // ll.display();
-    // System.out.println();
-    // System.out.println(ll.head.data);
-    // System.out.println();
+    ll.insertAtAny(4, 40);
+    ll.display();
+    System.out.println();
+    System.out.println(ll.tail.data);
+    System.out.println(ll.head.data);
+    System.out.println();
+    ll.insertAtAny(0, 100);
+    ll.display();
+    System.out.println();
+    System.out.println(ll.head.data);
+    System.out.println();
     ll.insertAtAny(10, 200);
     ll.display();
 
