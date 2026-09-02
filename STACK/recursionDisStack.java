@@ -4,12 +4,12 @@ import java.util.*;
 
 public class recursionDisStack {
 
-  public static void displayRec(Stack<Integer> st) {
+  public static void displayRevRec(Stack<Integer> st) {
     if (st.size() == 0) {
       return;
     }
     int top = st.pop();
-    System.out.println(" " + top);
+    System.out.print(" " + top);
     displayRec(st);
     st.push(top);
   }
@@ -21,6 +21,6 @@ public class recursionDisStack {
     st.push(30);
     st.push(40);
     st.push(50);
-    displayRec(st);
+    displayRevRec(st);
   }
 }
