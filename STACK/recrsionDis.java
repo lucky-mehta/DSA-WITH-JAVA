@@ -2,15 +2,16 @@ package STACK;
 
 import java.util.*;
 
-public class recursionDisStack {
+public class recrsionDis {
 
-  public static void displayRevRec(Stack<Integer> st) {
+  public static void displayRec(Stack<Integer> st) {
     if (st.size() == 0) {
       return;
     }
     int top = st.pop();
+
+    displayRec(st);
     System.out.print(" " + top);
-    displayRevRec(st);
     st.push(top);
   }
 
@@ -21,6 +22,6 @@ public class recursionDisStack {
     st.push(30);
     st.push(40);
     st.push(50);
-    displayRevRec(st);
+    displayRec(st);
   }
 }
