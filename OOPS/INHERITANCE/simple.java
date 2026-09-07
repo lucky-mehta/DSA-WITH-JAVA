@@ -11,6 +11,7 @@ public class simple {
   public static void main(String[] args) {
     Traingle obj = new Traingle();
     obj.color = "red";
+    System.out.println(obj.color);
 
   }
 }
