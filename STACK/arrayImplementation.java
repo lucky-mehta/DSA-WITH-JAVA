@@ -16,7 +16,7 @@ public class arrayImplementation {
 
     int peek() {
       if (idx == 0) {
-        System.out.println("Stack is empty");
+        System.out.println("Stack is empty!");
         return -1;
       }
       return arr[idx - 1];
@@ -24,7 +24,7 @@ public class arrayImplementation {
 
     int pop() {
       if (idx == 0) {
-        System.out.println("Stack is empty");
+        System.out.println("Stack is empty!");
         return -1;
       }
       int top = arr[idx - 1];
