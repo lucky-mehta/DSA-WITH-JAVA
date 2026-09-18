@@ -19,14 +19,18 @@ public class infix1 {
           // work
           int v2 = val.pop();
           int v1 = val.pop();
-          if (op.peek() == '-')
+          if (op.peek() == '-') {
             val.push(v1 - v2);
-          if (op.peek() == '+')
+          }
+          if (op.peek() == '+') {
             val.push(v1 + v2);
-          if (op.peek() == '*')
+          }
+          if (op.peek() == '*') {
             val.push(v1 * v2);
-          if (op.peek() == '/')
+          }
+          if (op.peek() == '/') {
             val.push(v1 / v2);
+          }
           op.pop();
         }
         op.pop(); // '(' ise remove kr diya
