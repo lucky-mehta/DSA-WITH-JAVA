@@ -1,3 +1,5 @@
+//Array implementation of corcular queue
+
 package Queue;
 
 public class circularQueueArray {
